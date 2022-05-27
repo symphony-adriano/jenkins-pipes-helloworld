@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('build') {
             steps {
-                sh 'node --version'
+                echo 'fettine di vitello non ti vanno bene?'
             }
         }
     }
